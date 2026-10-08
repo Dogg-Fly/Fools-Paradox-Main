@@ -53,7 +53,7 @@ return {
             bl_foolspara_foot = {
                 name = "The Foot",
                 text = { "Scored Enhanced Cards",
-                        "Lose Them" },
+                        "Lose Them before Scoring" },
             },
             bl_foolspara_scepter = {
                 name = "The Scepter",
@@ -129,8 +129,8 @@ return {
             },
             bl_foolspara_storm = {
                 name = "The Storm",
-                text = { "Base Chips set to 0",
-                        "Base Mult set to 1" },
+                text = { "Base Chips and Mult",
+                        "are set to 1" },
             },
             bl_foolspara_liar = {
                 name = "The Liar",

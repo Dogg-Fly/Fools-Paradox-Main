@@ -252,8 +252,8 @@ SMODS.Blind({
     pos = { y = 12 },
     boss = { min = 1 },
     boss_colour = HEX('620072'),
-    mult = 1.5,
-    dollars = 0,
+    mult = 2.2,
+    dollars = 7,
     drawn_to_hand = function(self)
         if G.GAME.blind.should_discard then
             for _, v in ipairs(G.hand.cards) do
@@ -307,8 +307,8 @@ SMODS.Blind({
     pos = { y = 15 },
     boss = { min = 1 },
     boss_colour = HEX('620072'),
-    mult = 1.5,
-    dollars = 0,
+    mult = 2,
+    dollars = 6,
     debuff = {
         to_discard = 3
     },
@@ -387,7 +387,7 @@ SMODS.Blind({
     pos = { y = 18 },
     boss = { min = 1 },
     boss_colour = HEX('620072'),
-    mult = 2.2,
+    mult = 2,
     dollars = 5,
     recalc_debuff = function(self, card, from_blind)
         if card.area ~= G.jokers and not G.GAME.blind.disabled then
@@ -406,8 +406,8 @@ SMODS.Blind({
     pos = { y = 19 },
     boss = { min = 1 },
     boss_colour = HEX('620072'),
-    mult = 1.5,
-    dollars = 0,
+    mult = 2,
+    dollars = 6,
     debuff_hand = function(self, cards, hand, handname, check)
         if #cards < 1 then return true end
         local _, _, _, scoring_hand, _ = G.FUNCS.get_poker_hand_info(cards)
@@ -443,8 +443,8 @@ SMODS.Blind({
     pos = { y = 21 },
     boss = { min = 1 },
     boss_colour = HEX('620072'),
-    mult = 1.5,
-    dollars = 0,
+    mult = 2.2,
+    dollars = 6,
     debuff = {
         chance = 3
     },
@@ -498,8 +498,8 @@ SMODS.Blind({
     pos = { y = 22 },
     boss = { min = 1 },
     boss_colour = HEX('620072'),
-    mult = 1.5,
-    dollars = 0,
+    mult = 2,
+    dollars = 6,
     set_blind = function(self, reset, silent)
         if not reset then
             ease_ante(1)
@@ -561,8 +561,8 @@ SMODS.Blind({
     pos = { y = 25 },
     boss = { min = 1 },
     boss_colour = HEX('620072'),
-    mult = 1.5,
-    dollars = 0,
+    mult = 2,
+    dollars = 5,
     press_play = function(self)
         if G.GAME.blind.disabled then
             return
@@ -596,8 +596,8 @@ SMODS.Blind({
     pos = { y = 26 },
     boss = { min = 1 },
     boss_colour = HEX('620072'),
-    mult = 1.5,
-    dollars = 0,
+    mult = 1,5,
+    dollars = 5,
     modify_hand = function(self, cards, poker_hands, text, mult, hand_chips)
         if (mult ~= 1) or (hand_chips ~= 0) then
             return 1, 0, true

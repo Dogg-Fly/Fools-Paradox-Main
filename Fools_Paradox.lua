@@ -69,7 +69,7 @@ SMODS.Atlas {
 	px = 71,
 	py = 95
 }
-if not (SMODS.Mods["Artbox"] or {}).can_load  then
+if not (SMODS.Mods["ArtBox"] or {"artb"}).can_load  then
 	NFS.load(mod_path .. "objects/poker_hands/null.lua")()
 	--planets
 	NFS.load(mod_path .. "objects/planets/vesta.lua")()
