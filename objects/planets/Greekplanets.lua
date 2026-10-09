@@ -7,6 +7,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 5, y = 3 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -27,7 +30,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 3, y = 2 },
-
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -48,6 +53,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 2, y = 3 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -68,6 +76,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 1, y = 2 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -88,6 +99,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 0, y = 2 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -108,6 +122,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 3, y = 3 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -128,6 +145,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 5, y = 2 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -148,6 +168,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 4, y = 2 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -168,6 +191,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 7, y = 2 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -188,6 +214,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 6, y = 2 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -208,6 +237,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 1, y = 3 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -228,6 +260,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 6, y = 3 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -248,6 +283,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 8, y = 3 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -268,6 +306,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 0, y = 3 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -288,6 +329,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 4, y = 3 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -308,6 +352,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 2, y = 2 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,
@@ -328,6 +375,9 @@ SMODS.Consumable {
     cost = 9,
     atlas = "consumables_atlas",
     pos = { x = 7, y = 3 },
+    in_pool = function(self, args)
+    	return args and args.source == "pantheon"
+	end,
     can_use = function(self, card)
         return true
     end,

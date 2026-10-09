@@ -27,7 +27,6 @@ FOOLSPARA.metalcards = function()
         m_steel = true,
         m_bunco_copper = true,
         m_mf_brass = true,
-        m_ortalab_rusty = true,
     }
 
     for k, v in pairs(G.P_CENTERS) do

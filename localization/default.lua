@@ -165,7 +165,8 @@ return {
         },
         Edition={},
         Enhanced={},
-        Joker={},
+        Joker={
+        },
         Other={
             foolspara_light_suits = {
                 name = "Light Suits",
@@ -192,7 +193,15 @@ return {
                     "{C:foolspara_roses}Roses{}, {c:foolspara_shields}Shields{}",
                     "{C:foolspara_bells}Bells{}, {c:foolspara_acorns}Acorns{}"
                 }
-            }
+            },
+            p_foolspara_pantheon_normal = {
+				name = "Pantheon Pack",
+				text = {
+					"Choose {C:attention}1{} of up to",
+					"{C:attention}2{C:spectral} Greek Planet{} cards to",
+					"be used immediately",
+                }
+            },
         },
         Planet={
              c_foolspara_vesta = {

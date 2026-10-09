@@ -15,6 +15,21 @@ function FOOLSPARA.can_load_spectrums()
 	return false
 end
 
+SMODS.Atlas{
+	key = 'foolsjokers',
+	path = 'FoolsJokers.png',
+	px = 71,
+	py = 95
+}
+
+
+SMODS.Rarity({
+	key = "parallel",
+	loc_txt = {name = "Parallel"},
+	badge_colour = HEX("F1C40F"),
+})
+
+
 --load modded suits
 
 FOOLSPARA.light_suits = { 'Diamonds', 'Hearts','foolspara_Roses', 'foolspara_Bells' }
@@ -104,8 +119,13 @@ if next(SMODS.find_mod("SpectrumFramework")) then
 	NFS.load(mod_path .. "objects/poker_hands/framework_override.lua")()
 end
 NFS.load(mod_path .. "objects/poker_hands/light_dark_spectrum.lua")()
+
 assert(SMODS.load_file('objects/suits_n_ranks/wild_buff.lua'))()
 assert(SMODS.load_file("objects/blinds.lua"))()
 assert(SMODS.load_file("objects/planets/theoryplanets.lua"))()
 assert(SMODS.load_file("objects/planets/greekplanets.lua"))()
+assert(SMODS.load_file("objects/boosters.lua"))()
+
+--Jokers
+
 
