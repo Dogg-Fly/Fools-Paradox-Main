@@ -30,6 +30,17 @@ SMODS.Rarity({
 })
 
 
+
+SMODS.Atlas { 
+	key = 'Enhancers',
+	path = 'FoolsEnhancements.png',
+	px = 71,
+	py = 95
+}
+
+assert(SMODS.load_file('objects/enhancements/penalty.lua'))()
+assert(SMODS.load_file('objects/enhancements/div.lua'))()
+
 --load modded suits
 
 FOOLSPARA.light_suits = { 'Diamonds', 'Hearts','foolspara_Roses', 'foolspara_Bells' }
@@ -64,6 +75,7 @@ SMODS.Atlas {
   px = 36,
   py = 18,
 }
+
 -- Suit and their Tarot
 assert(SMODS.load_file('objects/suits_n_ranks/acorns.lua'))()
 assert(SMODS.load_file('objects/suits_n_ranks/bells.lua'))()

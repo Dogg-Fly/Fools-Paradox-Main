@@ -164,7 +164,18 @@ return {
             },
         },
         Edition={},
-        Enhanced={},
+        Enhanced={
+            m_foolspara_penalty = {
+                name = 'Penalty',
+                text = {"{C:red}+#1#{} Mult",
+                        "{C:blue}-#2#{} Chips"}
+            },
+            m_foolspara_div = {
+                name = 'Divide',
+                 text = {"{X:mult,C:white}X#1#{} Mult",
+                            "{C:blue}+#2#{} Chips"},
+            },
+        },
         Joker={
         },
         Other={
