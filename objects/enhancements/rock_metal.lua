@@ -25,6 +25,7 @@ FOOLSPARA.metalcards = function()
     local outside_metals = {
         m_gold = true,
         m_steel = true,
+        m_ortalab_rusty = true,
         m_bunco_copper = true,
         m_mf_brass = true,
     }

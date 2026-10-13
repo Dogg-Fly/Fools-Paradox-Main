@@ -166,15 +166,22 @@ return {
         Edition={},
         Enhanced={
             m_foolspara_penalty = {
-                name = 'Penalty',
+                name = 'Penalty Card',
                 text = {"{C:red}+#1#{} Mult",
                         "{C:blue}-#2#{} Chips"}
             },
             m_foolspara_div = {
-                name = 'Divide',
+                name = 'Divide Card',
                  text = {"{X:mult,C:white}X#1#{} Mult",
                             "{C:blue}+#2#{} Chips"},
             },
+            m_foolspara_rose_gold = {
+                name = 'Rose Gold Card',
+                text =
+                {"{C:blue}X#1#{} Chips",
+                "while this card",
+                "stays in hand"},
+            }
         },
         Joker={
         },

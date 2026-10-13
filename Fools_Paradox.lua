@@ -40,6 +40,7 @@ SMODS.Atlas {
 
 assert(SMODS.load_file('objects/enhancements/penalty.lua'))()
 assert(SMODS.load_file('objects/enhancements/div.lua'))()
+assert(SMODS.load_file('objects/enhancements/rose_gold.lua'))()
 
 --load modded suits
 
